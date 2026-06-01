@@ -1,0 +1,19 @@
+body {
+            font-family: Arial, sans-serif;
+        }
+        
+        .box {
+            height: 300px;
+            width: 600px;
+            margin: 20px auto;
+            border: 2px solid #333;
+            background-image: url('https://picsum.photos/id/1015/600/300');
+            background-size: 300px 300px;
+            background-repeat: no-repeat;
+            background-position: right center;
+            padding: 20px;
+            color: black;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+        }
+        
+        h1 { text-align: center; }
