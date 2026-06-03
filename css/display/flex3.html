@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex wrap space-around</title>
+    <style>
+        .child{
+            width: 200px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            border-radius: 20px;
+            background-color: grey;
+            color: black;
+            transition: all 2s;
+        }
+        #parent{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        #parent img { border-radius: 20px;}
+        #parent button{
+            border: none;
+            padding: 10px 30px;
+            border-radius: 20px;
+        }
+        #parent p{
+            text-align: justify;
+            line-height: 25px;
+
+        }
+        .child:hover{
+            transform: translateY(-20px);
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div class="child">
+            <img src="https://cdn.pixabay.com/photo/2026/05/22/18/43/18-43-26-259_1280.jpg" alt="https://cdn.pixabay.com/photo/2026/05/22/18/43/18-43-26-259_1280.jpg" height="100" width="100">
+            <h2>Bird</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dicta magni dignissimos eveniet fuga animi qui quos. Ut, neque repellat. Corrupti saepe numquam, nostrum fugit quia veniam facere sint sit!</p>
+            <button>Know More...</button>
+        </div>
+        <div class="child">
+            <img src="https://media.istockphoto.com/id/1707927462/photo/road-trip-romance.jpg?s=2048x2048&w=is&k=20&c=GElFMQ9hTBKgHviT0foGZTL8nnLZVDM21xjSIvRuQDM=" alt="" height="100" width="100">
+            <h2>People</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dicta magni dignissimos eveniet fuga animi qui quos. Ut, neque repellat. Corrupti saepe numquam, nostrum fugit quia veniam facere sint sit!</p>
+            <button>Know More...</button>
+        </div>
+        <div class="child">
+            <img src="https://cdn.pixabay.com/photo/2023/03/15/03/46/jeep-7853620_1280.jpg" alt="" height="100" width="100">
+            <h2>Car</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dicta magni dignissimos eveniet fuga animi qui quos. Ut, neque repellat. Corrupti saepe numquam, nostrum fugit quia veniam facere sint sit!</p>
+            <button>Know More...</button>
+        </div>
+    </div>
+</body>
+</html>
