@@ -1,0 +1,16 @@
+#img{
+            height: 600px;
+            width: 500px;
+            animation-name: zoomingElements;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes zoomingElements {
+            from{
+                transform: scale(0);
+            }
+            to{
+                transform: scale(1);
+            }
+        }

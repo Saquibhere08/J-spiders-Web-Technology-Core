@@ -1,0 +1,21 @@
+#div1{
+    height: 400px;
+    width: 400px;
+    background-image: url(https://cdn.pixabay.com/photo/2018/04/10/22/18/spiderman-3309033_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation-name: chaningImage;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes chaningImage {
+ from{
+    background-image: url(https://cdn.pixabay.com/photo/2018/04/10/22/18/spiderman-3309033_1280.jpg);
+    background-color: rgb(255, 255, 255);
+ }   
+ to{
+    background-image: url(https://cdn.pixabay.com/photo/2023/05/19/14/07/spiderman-8004663_1280.jpg);
+ }
+}

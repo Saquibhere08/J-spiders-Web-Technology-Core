@@ -1,0 +1,24 @@
+#div1{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    animation-name: movingElement;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    
+    
+}
+@keyframes movingElement {
+    from{
+        margin-left: 0px;
+        transform: rotate(0deg);
+        background-image: url(https://cdn.pixabay.com/photo/2019/08/29/23/56/crazy-4440146_1280.jpg);
+    }
+    to{
+        margin-left: 1000px;
+        transform: rotate(360deg);
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjZXwr8DpDG2ki7s9maP1ooDw0Tzi0o5DwAQ&s);
+    }
+}

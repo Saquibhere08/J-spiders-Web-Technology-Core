@@ -1,0 +1,42 @@
+#div1{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    animation-name: movingElement;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+    
+    
+}
+@keyframes movingElement {
+    0%{
+        margin-left: 0px;
+        margin-top: 0px;
+        background-color: yellow;
+    }
+    25%{
+        margin-left: 500px;
+        margin-top: 0px;
+        background-color: yellowgreen;
+
+    }
+    50%{
+        margin-left: 500px;
+        margin-top: 500px;
+        background-color: aquamarine;
+
+    }
+    75%{
+        margin-left: 0px;
+        margin-top: 500px;
+        background-color: blue;
+    }
+    100%{
+        margin-left: 0px;
+        margin-top: 0px;
+        background-color: black
+    
+    }
+}
